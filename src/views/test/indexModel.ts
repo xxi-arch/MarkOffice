@@ -26,15 +26,22 @@ let rules = {
 
 interface exp {
     model: {
+        /**
+         * 名称
+         */
         name: string,
         module: string
+        /**
+         * ajax类中的url
+         */
         ajaxModel: string
         detailTitle: string
         createTitle: string
         updateTitle: string
     }
     field: {}
+    rules:{}
 }
 
 
-export let info: exp = {model, field}
+export let info: exp = {model, field,rules}
