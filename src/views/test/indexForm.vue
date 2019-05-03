@@ -142,7 +142,7 @@ export default {
                 } else {
                     this.$message.error('请完善表单信息');
                 }
-            });
+            }); 
         },
         resetForm(formName) {
             this.$refs[formName].resetFields();
@@ -151,14 +151,15 @@ export default {
             if (!this.visible) {
                 return false;
             }
+            let res 
             switch (this.oper) {
                 case 'create':
                     this.title = info.title + '新增'
                     this.ruleForm = this.util.copy(form)
-                    break;
+                    break; 
                 case 'update':
                     this.title = info.title + '修改'
-                    let res = await this.ajax[ajaxOper]('select', {
+                    res = await this.ajax[ajaxOper]('select', {
                         id: this.map.id
                     })
                     this.ruleForm = res.data[0]

@@ -14,7 +14,6 @@
             <el-col :span="12">
                 <el-form-item label="身份证号码" prop="idcard">
                     {{ruleForm.idcard}}
-                    <!--{{ruleForm.idcard}} -->
                 </el-form-item>
             </el-col>
 
@@ -33,7 +32,6 @@
             <el-col :span="12">
                 <el-form-item label="状态" prop="status">
                     {{ util.detailFormatterDic( 'status',ruleForm.status)}}
-                   
                 </el-form-item>
             </el-col>
 
@@ -112,10 +110,11 @@ export default {
             if (!this.visible) {
                 return false;
             }
+            let res
             switch (this.oper) {
                 case 'detail':
-                    this.title = info.title + '修改'
-                    let res = await this.ajax[ajaxOper]('select', {
+                    this.title = info.title + '详情'
+                    res = await this.ajax[ajaxOper]('select', {
                         id: this.map.id
                     })
                     this.ruleForm = res.data[0]
