@@ -68,6 +68,11 @@
 </template>
 
 <script>
+
+import {info} from './indexModel'
+console.log(info)
+ 
+
 let rules = {
     name: [{
         required: true,
@@ -84,9 +89,9 @@ let form = {
     status: '',
     day: '',
 }
-let info = {
-    title: '用户管理',
-}
+// let info = {
+//     title: '用户管理',
+// }
 let ajaxOper = 'user'
 export default {
     props: {
@@ -154,11 +159,11 @@ export default {
             let res 
             switch (this.oper) {
                 case 'create':
-                    this.title = info.title + '新增'
+                    this.title = info.model.createTitle 
                     this.ruleForm = this.util.copy(form)
                     break; 
                 case 'update':
-                    this.title = info.title + '修改'
+                    this.title = info.model.updateTitle 
                     res = await this.ajax[ajaxOper]('select', {
                         id: this.map.id
                     })
