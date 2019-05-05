@@ -60,4 +60,18 @@ return [
     'break_reconnect' => false,
     // 断线标识字符串
     'break_match_str' => [],
+
+    'db_sqlite' => [
+        // 数据库类型
+        'type'        => 'sqlite',
+        // 数据库名
+        'database'    => 'main',
+        // 数据库编码默认采用utf8
+        'charset'     => 'utf8',
+        // 数据库表前缀
+        'prefix'      => '',
+        'dsn'=>'sqlite:../db.db'
+    ],
+
+
 ];
