@@ -2,7 +2,7 @@
 namespace app\index\controller;
 use think\Db;
 use think\Controller;
-class User extends Controller
+class User extends Api
 {
     public function select($limit=10,$page=1)
     {
