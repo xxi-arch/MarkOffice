@@ -1,0 +1,550 @@
+/*弹框公用标题行*/
+h5{border-left:2px #a82127 solid;padding:4px 0 4px 10px;background:#f6f6f6;color:#222;margin:8px 0}
+
+.ivu-modal-header span.grey{font-size:13px;color:#999;display: inline-block;margin-left:5px;}
+
+/*iview 弹框内公用时间段*/
+.daterange .ivu-date-picker {width: 100%;font-family: Helvetica Neue!important;text-align: left;font-weight: 400;}
+.daterange input[type="text"] {width: 100%;}
+.daterange{width:180px;float:left;margin-left:5px;}
+.ivu-input-number::-moz-placeholder{color:#acacac;opacity:1}.ivu-input-number:-ms-input-placeholder{color:#acacac}.ivu-input-number::-webkit-input-placeholder{color:#acacac}
+.ivu-page-options-elevator input::-moz-placeholder{color:#acacac;opacity:1}.ivu-page-options-elevator input:-ms-input-placeholder{color:#acacac}.ivu-page-options-elevator input::-webkit-input-placeholder{color:#acacac}
+.ivu-input::-moz-placeholder{color:#acacac;opacity:1}.ivu-input:-ms-input-placeholder{color:#acacac}.ivu-input::-webkit-input-placeholder{color:#acacac}
+
+/*iview 弹框内公用时间段*/
+.date,.daterange {font-size:12px;}
+.date input[type="text"] {width: 100%;}
+
+/*iview 弹框内公用select*/
+.ivu-select-visible .ivu-select-selection{box-shadow: none;}
+.ivu-select-single .ivu-select-selection{height:26px;}
+.ivu-select-dropdown .ivu-select-not-found{font-size:12px;text-align: center}
+.ivu-select-dropdown .ivu-select-not-found li{float:none!important;text-align: center}
+.ivu-select-small.ivu-select-single .ivu-select-selection{border-radius:0}
+
+/*iview 弹框内公用select 采购合同弹框里的select*/
+.layer-salescontract .ivu-select-small .ivu-select-input{height:26px;line-height:25px;}
+.layer-salescontract .ivu-select-small.ivu-select-single .ivu-select-selection{height:26px;line-height:25px;}
+.layer-salescontract .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.layer-salescontract .ivu-select-single .ivu-select-selection .ivu-select-selected-value{line-height:25px;}
+
+.layer-buycontract .ivu-select-small .ivu-select-input{height:26px;line-height:25px;}
+.layer-buycontract .ivu-select-small.ivu-select-single .ivu-select-selection{height:26px;line-height:25px;}
+.layer-buycontract .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.layer-buycontract .ivu-select-single .ivu-select-selection .ivu-select-selected-value{line-height:25px;}
+
+
+/*===客户资料维护  弹框===*/
+.layer-clientdetail{width:640px;padding:0 25px;font-size:13px;}
+.layer-clientdetail .formlist li{float:left;margin:8px 0;}
+.layer-clientdetail .formlist li:nth-child(even){float:right;}
+.layer-clientdetail .formlist li label{display:inline-block;width:70px;text-align: right;}
+.layer-clientdetail .formlist li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-clientdetail .formlist li:last-child select{width:210px;font-size:13px;height:28px;line-height: 27px}
+
+/*===供应商资料维护  弹框===*/
+.layer-supplierdetail{width:660px;padding:0 25px;font-size:13px;}
+.layer-supplierdetail .formlist li{float:left;margin:8px 0;}
+.layer-supplierdetail .formlist li:nth-child(even){float:right;}
+.layer-supplierdetail .formlist li label{display:inline-block;width:80px;text-align: right;}
+.layer-supplierdetail .formlist li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-supplierdetail .formlist li:last-child select{width:210px;font-size:13px;height:28px;line-height: 27px}
+.layer-supplierdetail .formlist li a.upload{display: inline-block;width:210px;position:relative;height:29px;line-height:29px;color:#333;cursor:pointer;background:#eee;text-align: center;}
+.layer-supplierdetail .formlist li a.upload input[type="file"]{opacity: 0;position:absolute;left:0;top:0;width:210px;height:29px;}
+
+/*===客户资源复用申请  弹框===*/
+.layer-bandwidthapply{width:510px;padding:0 5px;font-size:13px;}
+.layer-bandwidthapply li.red span{color:#f00;}
+.layer-bandwidthapply .basicinfo ul{padding:0 0 10px 10px}
+.layer-bandwidthapply .basicinfo li{float:left;margin:4px 20px 4px 0;}
+.layer-bandwidthapply .bandwidth ul{padding:5px 0 0 10px;display: flex;-webkit-box-pack: justify;-webkit-box-orient: horizontal;-webkit-box-direction: normal;flex-flow: row wrap;align-items: center; }
+.layer-bandwidthapply .bandwidth li{width:34%;padding:4px 0;}
+.layer-bandwidthapply .bandwidth li:nth-child(3){width:26%;text-align: right;}
+.layer-bandwidthapply .bandwidth li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-bandwidthapply .bandwidth p{margin:20px 0 10px 10px;}
+.layer-bandwidthapply .bandwidth p input{margin-right:5px;margin-left:10px}
+
+/*===审批不通过 原因  弹框===*/
+.layer-nopass {width:400px;padding:0 20px;margin-top:-5px}
+.layer-nopass textarea{width:100%;height:120px;margin-top:10px;resize: none;font-size:14px;padding:6px 10px}
+
+/*===合同审批详情  弹框===*/
+.layer-approvedetail{padding:0 5px 20px;font-size:13px;}
+
+.table-approvedetail th:first-child,.table-approvedetail td:first-child{width:17%;}
+.table-approvedetail th:nth-child(2),.table-approvedetail td:nth-child(2){width:15%;text-align: center;}
+.table-approvedetail th:nth-child(3),.table-approvedetail td:nth-child(3){width:25%;text-align: center;}
+.table-approvedetail th:nth-child(4),.table-approvedetail td:nth-child(4){width:14%;text-align: center;}
+.table-approvedetail th:nth-child(5),.table-approvedetail td:nth-child(5){text-align: center;}
+
+/*===带宽复用审批详情  弹框===*/
+.layer-bwapprovedetail{width:600px;padding:0 5px 20px;font-size:13px;}
+
+.table-bwapprovedetail th:first-child,.table-bwapprovedetail td:first-child{width:17%;}
+.table-bwapprovedetail th:nth-child(2),.table-bwapprovedetail td:nth-child(2){width:15%;text-align: center;}
+.table-bwapprovedetail th:nth-child(3),.table-bwapprovedetail td:nth-child(3){width:25%;text-align: center;}
+.table-bwapprovedetail th:nth-child(4),.table-bwapprovedetail td:nth-child(4){width:14%;text-align: center;}
+.table-bwapprovedetail th:nth-child(5),.table-bwapprovedetail td:nth-child(5){text-align: center;}
+
+/*===付款审批详情  弹框===*/
+.layer-payapprovedetail{width:600px;padding:0 5px 20px;font-size:13px;}
+
+.table-payapprovedetail th:first-child,.table-payapprovedetail td:first-child{width:17%;}
+.table-payapprovedetail th:nth-child(2),.table-payapprovedetail td:nth-child(2){width:15%;text-align: center;}
+.table-payapprovedetail th:nth-child(3),.table-payapprovedetail td:nth-child(3){width:25%;text-align: center;}
+.table-payapprovedetail th:nth-child(4),.table-payapprovedetail td:nth-child(4){width:14%;text-align: center;}
+.table-payapprovedetail th:nth-child(5),.table-payapprovedetail td:nth-child(5){text-align: center;}
+
+/*===纸质合同经办信息登记  弹框===*/
+.layer-papercontract{width:380px;padding:0 0px;font-size:13px;}
+.layer-papercontract .formlist li{float:left;margin:8px 0;}
+.layer-papercontract .formlist li label{float:left;display:inline-block;width:120px;text-align: right;}
+.layer-papercontract .formlist li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-papercontract .formlist li a.upload{display: inline-block;width:210px;position:relative;height:29px;line-height:29px;color:#333;cursor:pointer;background:#eee;text-align: center;}
+.layer-papercontract .formlist li a.upload input[type="file"]{opacity: 0;position:absolute;left:0;top:0;width:210px;height:29px;}
+.layer-papercontract .date{float:left}
+.layer-papercontract .dateget{width:210px;}
+.layer-papercontract .datesign{width:210px;}
+
+/*===销售合同终止  弹框===*/
+.layer-salescontractstop{width:1000px;padding:0 5px;font-size:13px;}
+.table-salescontractstop{margin:0px 0;}
+.table-salescontractstop td{font-size:12px;}
+.table-salescontractstop th:first-child,.table-salescontractstop tr:first-child td:first-child{width:8%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:nth-child(2),.table-salescontractstop tr:first-child td:nth-child(2){width:9%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:nth-child(3),.table-salescontractstop tr:first-child td:nth-child(3){}
+.table-salescontractstop th:nth-child(4),.table-salescontractstop tr:first-child td:nth-child(4){}
+.table-salescontractstop th:nth-child(5),.table-salescontractstop tr:first-child td:nth-child(5){width:9%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:nth-child(6),.table-salescontractstop tr:first-child td:nth-child(6){width:7%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:nth-child(7),.table-salescontractstop tr:first-child td:nth-child(7){width:10%;white-space: nowrap;}
+.table-salescontractstop th:nth-child(8),.table-salescontractstop tr:first-child td:nth-child(8){width:10%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:nth-child(9),.table-salescontractstop tr:first-child td:nth-child(9){width:9%;text-align: center;white-space: nowrap;}
+.table-salescontractstop th:last-child,.table-salescontractstop td:last-child{width:9%;text-align: center;white-space: nowrap;}
+.table-salescontractstop tr:not(:first-child) td:nth-child(1){width:10%;white-space: nowrap;}
+.table-salescontractstop tr:not(:first-child) td:nth-child(2){width:10%;text-align: center;white-space: nowrap;}
+.table-salescontractstop tr:not(:first-child) td:nth-child(3){width:9%;text-align: center;white-space: nowrap;}
+
+/*===采购合同终止  弹框===*/
+.layer-buycontractstop{padding:0 5px;font-size:13px;}
+.table-buycontractstop{margin:0px 0;width:1197px;}
+.table-buycontractstop tr:hover td{background:transparent}
+.table-buycontractstop thead tr:first-child th{text-align: center;background:#f3f3f3;font-size:13px;font-weight:bold;color:#333}
+.table-buycontractstop thead tr:nth-child(2) th .grey{color:#666!important}
+.table-buycontractstop td{font-size:12px;}
+.table-buycontractstop th,.table-buycontractstop td{text-align: center;}
+.table-buycontractstop thead tr:first-child th:last-child{background:#f9f9f9;}
+.table-buycontractstop thead tr:nth-child(2) th:nth-child(7),.table-buycontractstop thead tr:nth-child(2) th:nth-child(8),.table-buycontractstop thead tr:nth-child(2) th:nth-child(9),
+.table-buycontractstop thead tr:nth-child(2) th:nth-child(10),.table-buycontractstop thead tr:nth-child(2) th:nth-child(11){background:#f9f9f9}
+.table-buycontractstop tbody tr:first-child td:nth-child(7),.table-buycontractstop tbody tr:first-child td:nth-child(8),.table-buycontractstop tbody tr:first-child td:nth-child(9),
+.table-buycontractstop tbody tr:first-child td:nth-child(10),.table-buycontractstop tbody tr:first-child td:nth-child(11){background:#f9f9f9}
+.table-buycontractstop tbody tr:not(:first-child) td:nth-child(1),.table-buycontractstop tbody tr:not(:first-child) td:nth-child(2),
+.table-buycontractstop tbody tr:not(:first-child) td:nth-child(3),.table-buycontractstop tbody tr:not(:first-child) td:nth-child(4),
+.table-buycontractstop tbody tr:not(:first-child) td:nth-child(5){background:#f9f9f9}
+
+.table-buycontractstop tr:nth-child(2) th:first-child,.table-buycontractstop tbody tr:first-child td:first-child{width:7%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(2),.table-buycontractstop tbody tr:first-child td:nth-child(2){width:8%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(3),.table-buycontractstop tbody tr:first-child td:nth-child(3){text-align: left;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(4),.table-buycontractstop tbody tr:first-child td:nth-child(4){width:16%;text-align: left;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(5),.table-buycontractstop tbody tr:first-child td:nth-child(5){width:7%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(6),.table-buycontractstop tbody tr:first-child td:nth-child(6){width:6%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(7),.table-buycontractstop tbody tr:first-child td:nth-child(7){width:9%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(8),.table-buycontractstop tbody tr:first-child td:nth-child(8){text-align: left;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(9),.table-buycontractstop tbody tr:first-child td:nth-child(9){width:7%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(10),.table-buycontractstop tbody tr:first-child td:nth-child(10){width:6%;white-space: nowrap;}
+.table-buycontractstop tr:nth-child(2) th:nth-child(11),.table-buycontractstop tbody tr:first-child td:nth-child(11){width:5%;white-space: nowrap;}
+
+.table-buycontractstop tbody tr:not(:first-child) td:nth-child(2){text-align: left;}
+
+/*===销售合同主要内容  弹框===*/
+.layer-salescontract{width:900px;padding:0 5px;font-size:13px;}
+.layer-salescontract label,.layer-salescontract input,.layer-salescontract .select,.layer-salescontract .date{float:left}
+.layer-salescontract label{padding-top:3px;}
+.layer-salescontract .formlist{padding:0 12px;}
+.layer-salescontract .formlist input,.layer-salescontract .basicinfo .select,.layer-salescontract .basicinfo .date{margin-right:10px}
+
+.layer-salescontract .basicinfo{margin-top:-7px;}
+.layer-salescontract .basicinfo li{float:left;margin:5px 0;}
+.layer-salescontract .basicinfo li *{vertical-align: middle;}
+.layer-salescontract .basicinfo .select,.layer-salescontract .basicinfo .date{display: inline-block;}
+.layer-salescontract .basicinfo li.program input{width:197px}
+.layer-salescontract .basicinfo .select-client{width:250px;}
+.layer-salescontract .basicinfo .select-sales{width:80px;}
+.layer-salescontract .basicinfo .select-contactype{width:180px;}
+.layer-salescontract .basicinfo .dateorder{width:100px;}
+.layer-salescontract .basicinfo .select-year{width:70px;}
+.layer-salescontract .basicinfo li.sum input{width:75px!important;}
+.layer-salescontract .basicinfo li.date02 label+input{width:70px!important;margin-right:4px;}
+.layer-salescontract .basicinfo li.date02 .ivu-date-picker{width:100px;}
+.layer-salescontract .basicinfo li.date02 .ivu-date-picker input{width:100%;}
+.layer-salescontract .basicinfo li .ivu-select-dropdown-list li{float:none;margin:0;}
+.layer-salescontract .basicinfo li.client input.ivu-select-input{border:none!important;height:24px;}
+.layer-salescontract .basicinfo li.sales input.ivu-select-input{border:none!important;height:24px;}
+
+/*公用*/
+.layer-salescontract .service .formcell{padding:6px 0}
+.layer-salescontract .service .formBar *{vertical-align: middle;}
+.layer-salescontract .service .formBar .select,.layer-salescontract .service .formBar input{margin-right:5px;}
+.layer-salescontract .service .formBar label{width:45px;}
+.layer-salescontract .service a{display: inline-block;margin-left:5px}
+.layer-salescontract .service a:hover{opacity: .85;}
+.layer-salescontract .listshow{padding:8px 0 0;font-size:12px;}
+.layer-salescontract .listshow li{padding:2px 0}
+.layer-salescontract .listshow li a{margin-left:10px;}
+.layer-salescontract .listshow a:hover i:before{color:#666!important;}
+.layer-salescontract .listshow li .text-icon{vertical-align: top;}
+/*\公用*/
+
+.layer-salescontract .service .listshow{padding-left:45px}
+.layer-salescontract .service .line .select-bustype{width:130px;}
+.layer-salescontract .service .line .select-year{width:90px;}
+
+.layer-salescontract .service .cabinet .select-cabinettype{width:130px;}
+.layer-salescontract .service .cabinet .select-bustype{width:130px;}
+.layer-salescontract .service .cabinet .select-year{width:90px;}
+
+.layer-salescontract .service .ip .select-year{width:90px;}
+
+.layer-salescontract .service .port .select-bandwidthtype{width:100px;}
+.layer-salescontract .service .port .select-ratelimiting{width:100px;}
+.layer-salescontract .service .port .select-year{width:90px;}
+
+.layer-salescontract .service .other .detail{width:350px!important}
+
+.layer-salescontract .payway{padding-top:6px;padding-bottom:6px;}
+.layer-salescontract .payway .formBar .date,.layer-salescontract .payway .formBar .select,.layer-salescontract .payway .formBar input{margin-right:5px;}
+.layer-salescontract .payway .select-payway{width:120px;}
+.layer-salescontract .payway .datemoney{width:120px;}
+.layer-salescontract .payway .cnt{width:240px}
+
+.layer-salescontract .commission{padding-top:6px;padding-bottom:6px;}
+.layer-salescontract .commission li{float:left;margin-right:15px;}
+.layer-salescontract .commission li *{vertical-align: middle;}
+.layer-salescontract .commission .select,.layer-salescontract .commission .date{display: inline-block;}
+.layer-salescontract .commission .select-payway{width:120px;}
+.layer-salescontract .commission .datepay{width:120px;}
+
+.layer-salescontract .contractfile{padding-top:2px;padding-bottom:2px;}
+.layer-salescontract .contractfile a.upload{display: inline-block;width:140px;border-radius:4px;position:relative;font-weight:normal;height:23px;line-height:23px;color:#fff;cursor:pointer;background:#515a6e;text-align: center;}
+.layer-salescontract .contractfile a.upload input[type="file"]{opacity: 0;position:absolute;left:0;top:0;width:210px;height:29px;}
+.layer-salescontract .contractfile a.upload:hover{opacity:.85}
+
+/*===销售合同变更主要内容  弹框===*/
+.layer-salescontract.change .basicinfo li.client input{width:250px;}
+
+/*===采购合同主要内容  弹框===*/
+.layer-buycontract{width:900px;padding:0 5px;font-size:13px;}
+.layer-buycontract label,.layer-buycontract input,.layer-buycontract .select,.layer-buycontract .date{float:left}
+.layer-buycontract label{padding-top:3px;}
+.layer-buycontract .formlist{padding:0 12px;}
+.layer-buycontract .formlist input,.layer-buycontract .basicinfo .select,.layer-buycontract .basicinfo .date{margin-right:10px}
+
+.layer-buycontract .basicinfo{margin-top:-7px;}
+.layer-buycontract .basicinfo li{float:left;margin:5px 0;}
+.layer-buycontract .basicinfo li *{vertical-align: middle;}
+.layer-buycontract .basicinfo .select,.layer-buycontract .basicinfo .date{display: inline-block;}
+.layer-buycontract .basicinfo li.program input{width:197px}
+.layer-buycontract .basicinfo .select-contract{width:125px;}
+.layer-buycontract .basicinfo .select-client{width:125px;}
+.layer-buycontract .basicinfo .select-contactype{width:180px;}
+.layer-buycontract .basicinfo .select-supplier{width:250px;}
+.layer-buycontract .basicinfo .select-sales{width:80px;}
+.layer-buycontract .basicinfo .dateorder{width:100px;}
+.layer-buycontract .basicinfo .select-year{width:70px;}
+.layer-buycontract .basicinfo li.sum input{width:75px!important;}
+.layer-buycontract .basicinfo li.num input{width:160px!important;}
+.layer-buycontract .basicinfo li.date02 label+input{width:70px!important;margin-right:4px;}
+.layer-buycontract .basicinfo li.date02 .ivu-date-picker{width:100px;}
+.layer-buycontract .basicinfo li.date02 .ivu-date-picker input{width:100%;}
+.layer-buycontract .basicinfo li .ivu-select-dropdown-list li{float:none;margin:0;}
+.layer-buycontract .basicinfo li.supplier input.ivu-select-input{border:none!important;height:24px;}
+.layer-buycontract .basicinfo li.sales input.ivu-select-input{border:none!important;height:24px;}
+
+
+/*公用*/
+.layer-buycontract .service .formcell{padding:6px 0}
+.layer-buycontract .service .formBar .select,.layer-buycontract .service .formBar input{margin-right:5px;}
+.layer-buycontract .service .formBar label{width:45px;}
+.layer-buycontract .service a{display: inline-block;margin-left:5px}
+.layer-buycontract .service a:hover{opacity: .85;}
+.layer-buycontract .listshow{padding:8px 0 0;font-size:12px;}
+.layer-buycontract .listshow li{padding:2px 0}
+.layer-buycontract .listshow li a{margin-left:10px;}
+.layer-buycontract .listshow a:hover i:before{color:#666!important;}
+.layer-buycontract .listshow li .text-icon{vertical-align: top;}
+/*\公用*/
+.layer-buycontract .service .listshow{padding-left:45px;}
+.layer-buycontract .service .bandwidth .formBar{display:table;width:100%;}
+.layer-buycontract .service .bandwidth .formBar label,.layer-buycontract .service .bandwidth .formBar p.formif{display: table-cell;vertical-align: top;}
+.layer-buycontract .service .bandwidth .formBar label{float:none;padding-top:3px;}
+.layer-buycontract .service .bandwidth input,.layer-buycontract .service .bandwidth .select{margin-bottom:5px;}
+.layer-buycontract .service .bandwidth .select-bustype{width:100px;}
+.layer-buycontract .service .bandwidth .select-machineroom{width:105px;}
+.layer-buycontract .service .bandwidth .select-portstandard{width:100px;}
+.layer-buycontract .service .bandwidth .select-multiplex{width:85px;}
+.layer-buycontract .service .bandwidth .select-year{width:90px;}
+.layer-buycontract .service .bandwidth .listshow{margin-top:-5px;}
+
+.layer-buycontract .service .cabinet .formBar{display:table;width:100%;}
+.layer-buycontract .service .cabinet .formBar label,.layer-buycontract .service .cabinet .formBar p.formif{display: table-cell;vertical-align: top;}
+.layer-buycontract .service .cabinet .formBar label{float:none;padding-top:3px;}
+.layer-buycontract .service .cabinet input,.layer-buycontract .service .cabinet .select{margin-bottom:5px;}
+.layer-buycontract .service .cabinet .select-machineroom{width:160px;}
+.layer-buycontract .service .cabinet .select-cabinettype{width:70px;}
+.layer-buycontract .service .cabinet .select-bustype{width:100px;}
+.layer-buycontract .service .cabinet .select-room{width:140px;}
+.layer-buycontract .service .cabinet .select-year{width:90px;}
+
+.layer-buycontract .service .cabinet .wroom{width:102px}
+.layer-buycontract .service .cabinet .wwater{width:102px}
+.layer-buycontract .service .cabinet .wfont{width:120px!important;}
+/* .layer-buycontract .service .cabinet .wfont::-webkit-input-placeholder{transform: scale(.85);}
+.layer-buycontract .service .cabinet .wfont::-moz-placeholder{transform: scale(.85);}
+.layer-buycontract .service .cabinet .wfont::-ms-input-placeholder{transform: scale(.85);} */
+
+.layer-buycontract .service .ip .select-iptype{width:90px;}
+.layer-buycontract .service .ip .select-year{width:90px;}
+
+.layer-buycontract .service .port .select-bandwidthtype{width:100px;}
+.layer-buycontract .service .port .select-ratelimiting{width:100px;}
+.layer-buycontract .service .port .select-year{width:90px;}
+
+.layer-buycontract .service .other .detail{width:350px!important}
+
+.layer-buycontract .payway{padding-top:6px;padding-bottom:6px;}
+.layer-buycontract .payway .formBar .date,.layer-buycontract .payway .formBar .select,.layer-buycontract .payway .formBar input{margin-right:5px;}
+.layer-buycontract .payway .select-payway{width:120px;}
+.layer-buycontract .payway .datemoney{width:120px;}
+.layer-buycontract .payway .cnt{width:240px}
+
+.layer-buycontract .commission{padding-top:6px;padding-bottom:6px;}
+.layer-buycontract .commission li{float:left;margin-right:15px;}
+.layer-buycontract .commission li *{vertical-align: middle;}
+.layer-buycontract .commission .select,.layer-buycontract .commission .date{display: inline-block;}
+.layer-buycontract .commission .select-payway{width:120px;}
+.layer-buycontract .commission .datepay{width:120px;}
+
+.layer-buycontract .contractfile{padding-top:2px;padding-bottom:2px;}
+.layer-buycontract .contractfile a.upload{display: inline-block;width:140px;border-radius:4px;position:relative;font-weight:normal;height:23px;line-height:23px;color:#fff;cursor:pointer;background:#515a6e;text-align: center;}
+.layer-buycontract .contractfile a.upload input[type="file"]{opacity: 0;position:absolute;left:0;top:0;width:210px;height:29px;}
+.layer-buycontract .contractfile a.upload:hover{opacity:.85}
+
+/*===采购合同变更主要内容  弹框===*/
+.layer-buycontract.change .basicinfo .supplier input{width:180px;}
+
+/*===收款情况一览表  弹框===*/
+.layer-accountdetail{padding:0 5px 25px;font-size:13px;}
+.table-accountdetail{margin:0px 0;width:1260px;}
+.table-accountdetail td{font-size:12px;}
+.table-accountdetail th:nth-child(5),.table-accountdetail th:nth-child(7),.table-accountdetail th:nth-child(8),.table-accountdetail th:nth-child(11){padding-left:0;padding-right:0;}
+.table-accountdetail th:first-child,.table-accountdetail td:first-child{width:7%;white-space: nowrap;}
+.table-accountdetail th:nth-child(2),.table-accountdetail td:nth-child(2){width:5%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(3),.table-accountdetail td:nth-child(3){}
+.table-accountdetail th:nth-child(4),.table-accountdetail td:nth-child(4){}
+.table-accountdetail th:nth-child(5),.table-accountdetail td:nth-child(5){width:5%;text-align: center;}
+.table-accountdetail th:nth-child(6),.table-accountdetail td:nth-child(6){width:9%;}
+.table-accountdetail th:nth-child(7),.table-accountdetail td:nth-child(7){width:5%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(8),.table-accountdetail td:nth-child(8){width:5%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(9),.table-accountdetail td:nth-child(9){width:7%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(10),.table-accountdetail td:nth-child(10){width:10%;white-space: nowrap;}
+.table-accountdetail th:nth-child(11),.table-accountdetail td:nth-child(11){width:5%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(12),.table-accountdetail td:nth-child(12){width:7%;text-align: center;white-space: nowrap;}
+.table-accountdetail th:nth-child(13),.table-accountdetail td:nth-child(13){width:10%;text-align: center;}
+
+/*===合同基本信息  弹框===*/
+.layer-contractinfo{padding:0 15px 15px;font-size:13px;}
+.layer-contractinfo .formlist ul{margin:0 0 5px;}
+.layer-contractinfo .formlist li{float:left;margin:7px 0;}
+.layer-contractinfo .formlist li label{float:left;}
+.layer-contractinfo .formlist .txt{float:left;white-space: nowrap;margin-right:15px;color:#666}
+.layer-contractinfo .formlist li:first-child,.layer-contractinfo .formlist li:nth-child(4),.layer-contractinfo .formlist li:nth-child(6){min-width:210px;}
+.layer-contractinfo .formlist li:nth-child(2){min-width:250px;}
+.layer-contractinfo .formlist li:nth-child(4){clear:left}
+.layer-contractinfo .formlist p.form label{float:left}
+.layer-contractinfo .formlist label{font-weight:bold}
+.layer-contractinfo .formlist .form .cnt{margin:8px 0 0 15px ;font-size:12px;line-height:20px;color:#666}
+.layer-contractinfo .formlist .form{margin:0 0 10px}
+
+/*===合同基本信息(收款管理)  弹框===*/
+.layer-gcontractinfo{padding:0 15px 15px;font-size:13px;}
+.layer-gcontractinfo .formlist ul{margin:0 0 5px;}
+.layer-gcontractinfo .formlist li{float:left;margin:7px 0;}
+.layer-gcontractinfo .formlist li label{float:left;}
+.layer-gcontractinfo .formlist .txt{float:left;white-space: nowrap;margin-right:15px;color:#666}
+.layer-gcontractinfo .formlist li:first-child,.layer-gcontractinfo .formlist li:nth-child(4){min-width:210px;}
+.layer-gcontractinfo .formlist li:nth-child(2){min-width:250px;}
+.layer-gcontractinfo .formlist li:nth-child(4){clear:left}
+.layer-gcontractinfo .formlist label{font-weight:bold}
+.layer-gcontractinfo .formlist p.form label{float:left;}
+.layer-gcontractinfo .formlist .form .cnt{margin:8px 0 0 15px ;font-size:12px;line-height:20px;color:#666}
+.layer-gcontractinfo .formlist .form{margin:0 0 10px}
+
+/*===付款申请单  弹框===*/
+.layer-payapplication{padding:0 15px 10px;color:#000;font-size:14px!important;}
+.layer-payapplication .tableblacktop{margin-bottom:10px;padding:0 8px}
+.layer-payapplication .tableblacktop label{font-weight:bold}
+.layer-payapplication .tableblacktop .leftdate{float:left;}
+.layer-payapplication .tableblacktop .rightnum{float:right;}
+.layer-payapplication h2{text-align: center;font-size:20px;margin-bottom:15px;}
+.layer-payapplication .tableblack{margin:0px 0;}
+.layer-payapplication .tableblack th,.layer-payapplication .tableblack td{border:1px #444 solid;padding:0 8px;height:50px;line-height:20px!important}
+.layer-payapplication .tableblack tr.greybg{background:#f0f0f0;}
+.layer-payapplication .tableblack th{text-align: right;white-space: nowrap;}
+.layer-payapplication .tableblack tr.greybg th{text-align: left;height:28px;}
+.layer-payapplication .tableblack .tit{font-weight: bold;}
+.layer-payapplication .tableblack p{display:inline-block;margin-bottom:-10px;border-bottom:1px #333 solid;padding:0px 0 0px;margin-right:10px;}
+.layer-payapplication .tableblack tr:last-child td:nth-child(2){width:90px;}
+.layer-payapplication .tableblack tr:last-child td:nth-child(4){width:90px;}
+.layer-payapplication .tableblack tr:last-child td:nth-child(6){width:90px;}
+.layer-payapplication .tableblack tr:last-child td:nth-child(8){width:90px;}
+.layer-payapplication .tableblack tr:last-child td:nth-child(10){width:90px;}
+.layer-payapplication input{font-size:14px;width:100%;padding:0;border:none;color:#999}
+.layer-payapplication input:focus{border:none}
+.layer-payapplication p.money01 input{width:200px;padding:0px 10px;text-align: center;margin-bottom:2px;}
+.layer-payapplication p.money02 input{width:150px;padding:0px 10px;text-align: center;margin-bottom:2px;}
+.layer-payapplication .tableblack tr:last-child input{text-align: center;}
+
+.layer-payapplication .ivu-modal-footer{text-align: center;}
+.layer-payapplication .ivu-modal-footer button{padding:5px 20px;}
+
+/*付款申请单 预览页*/
+.layer-payapplication.view tr:first-child td:nth-child(2),.layer-payapplication.view tr:nth-child(2) td:nth-child(2),.layer-payapplication.view tr:nth-child(3) td:nth-child(2){text-align: left;}
+.layer-payapplication.view td{text-align: center;}
+.layer-payapplication.view p.money01{min-width:200px;text-align: center;}
+.layer-payapplication.view p.money02{min-width:150px;text-align: center;}
+
+/*===付款登记  弹框===*/
+.layer-payregister{width:320px;padding:0 25px 0 20px;font-size:13px;margin:-3px 0 0}
+.layer-payregister .formlist li{float:left;margin:7px 0;}
+.layer-payregister .formlist li>label{float:left;width:65px;text-align: right;padding-top:3px;}
+.layer-payregister .formlist li input[type="text"]{width:210px;padding:4px 4px;font-size:13px;}
+.layer-payregister .formlist li .checkbox {float: left;margin-left:65px;margin-top:2px}
+.layer-payregister .formlist li .checkbox label{width:auto}
+.layer-payregister .formlist li .checkbox .ivu-checkbox-inner{width:18px;height:18px;margin-right:5px}
+.layer-payregister .formlist .datepay{float:left;width:210px;}
+.layer-payregister .date input{height: 28px;line-height:28px;}
+
+/*===发票及经办信息登记  弹框===*/
+.layer-invoiceregister{width:640px;padding:0 25px 0 15px;font-size:13px;}
+.layer-invoiceregister .formlist li{float:left;margin:8px 0;}
+.layer-invoiceregister .formlist li:nth-child(even){float:right;}
+.layer-invoiceregister .formlist li label{float:left;width:80px;text-align: right;padding-top:3px;}
+.layer-invoiceregister .formlist li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-invoiceregister .formlist .select-ticket01{float:left;width:210px;}
+.layer-invoiceregister .formlist .select-ticket02{float:left;width:210px;}
+.layer-invoiceregister .formlist .dateopen{float:left;width:210px;}
+.layer-invoiceregister .formlist .datemail{float:left;width:210px;}
+.layer-invoiceregister .ivu-select-single .ivu-select-selection {height: 28px;}
+.layer-invoiceregister .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.layer-invoiceregister  .ivu-select-single .ivu-select-selection .ivu-select-selected-value{height:28px;line-height: 28px;}
+.layer-invoiceregister .date input{height: 28px;line-height:28px;}
+
+/*===发票补记  弹框===*/
+.layer-invoicesupplement{width:640px;padding:0 25px 0 15px;font-size:13px;}
+.layer-invoicesupplement .formlist li{float:left;margin:8px 0;}
+.layer-invoicesupplement .formlist li:nth-child(even){float:right;}
+.layer-invoicesupplement .formlist li label{float:left;width:80px;text-align: right;padding-top:3px;}
+.layer-invoicesupplement .formlist li input{width:210px;padding:4px 4px;font-size:13px;}
+.layer-invoicesupplement .formlist .select-ticket01{float:left;width:210px;}
+.layer-invoicesupplement .formlist .select-ticket01 input.ivu-select-input{width:100%;border:none!important;height:26px;line-height:26px;}
+.layer-invoicesupplement .formlist .select-ticket02{float:left;width:210px;}
+.layer-invoicesupplement .formlist .select-ticket02 input.ivu-select-input{width:100%;border:none!important;height:26px;line-height:26px;}
+.layer-invoicesupplement .formlist .dateopen{float:left;width:210px;}
+.layer-invoicesupplement .formlist .datemail{float:left;width:210px;}
+.layer-invoicesupplement .ivu-select-single .ivu-select-selection {height: 28px;}
+.layer-invoicesupplement .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.layer-invoicesupplement  .ivu-select-single .ivu-select-selection .ivu-select-selected-value{height:28px;line-height: 28px;}
+.layer-invoicesupplement .date input{height: 28px;line-height:28px;}
+
+
+/*===收款登记  弹框===*/
+.layer-gatheringregister{width:320px;padding:0 25px 0 20px;font-size:13px;margin:-3px 0 0}
+.layer-gatheringregister .formlist li{float:left;margin:7px 0;}
+.layer-gatheringregister .formlist li>label{float:left;width:65px;text-align: right;padding-top:3px;}
+.layer-gatheringregister .formlist li input[type="text"]{width:210px;padding:4px 4px;font-size:13px;}
+.layer-gatheringregister .formlist li input[type="file"]{float: left;width:auto;}
+.layer-gatheringregister .formlist li .checkbox {float: left;margin-left:65px;margin-top:2px}
+.layer-gatheringregister .formlist li .checkbox label{width:auto}
+.layer-gatheringregister .formlist li .checkbox .ivu-checkbox-inner{width:18px;height:18px;margin-right:5px}
+.layer-gatheringregister .formlist .dateaccount{float:left;width:210px;}
+.layer-gatheringregister .date input{height: 28px;line-height:28px;}
+
+
+/*===工单完工登记  弹框===*/
+.layer-completeregister{padding:15px 25px 20px 0px;font-size:13px;margin:-5px 0 -5px}
+.layer-completeregister .formlist li{margin:14px 0;}
+.layer-completeregister .formlist li>label{float:left;width:100px;text-align: right;padding-top:3px;}
+.layer-completeregister .formlist li input[type="text"]{width:220px;padding:4px 4px;font-size:13px;}
+.layer-completeregister .formlist .datecomplete{float:left;width:220px;}
+.layer-completeregister .date input{height: 28px;line-height:28px;}
+.layer-completeregister .formlist li input[type="file"]{float:left;width:180px;}
+.layer-completeregister .formlist li textarea{height:80px;resize: none;width:220px;}
+.layer-completeregister .formlist li:last-child div{display:inline-block;width:220px;}
+.layer-completeregister+.ivu-modal-footer{margin:0 -16px -16px}
+
+/*===IDC施工单  弹框===*/
+/*4个工单弹框（idc、line）编辑/预览 公用*/
+.layerworkorder .tableblacktop{margin-bottom:8px;padding:0 5px}
+.layerworkorder .tableblacktop label{font-weight:bold}
+.layerworkorder .tableblacktop .leftnum{float:left;}
+.layerworkorder .tableblacktop .rightnum{float:right;}
+.layerworkorder .tableblack{}
+.layerworkorder .tableblack th,.layerworkorder .tableblack td{border:1px #444 solid;padding:0 8px;height:32px;line-height:20px!important}
+.layerworkorder .tableblack tr.greybg{background:#eee;}
+.layerworkorder .tableblack th{text-align: right;white-space: nowrap;}
+.layerworkorder .tableblack tr.greybg th{text-align: left;height:28px;}
+.layerworkorder .tableblack tr td.addicon{position:relative}
+.layerworkorder .tableblack tr td.addicon .btnadd{position:absolute;top:-1px;right:-30px;width:30px;height:33px;border:1px #000 solid;text-align: center;vertical-align: middle;display: block;padding-top:4px}
+.layerworkorder .tableblack tr td.addicon .btnadd:hover{opacity: .85;}
+.layerworkorder .tableblack tr .listshow{font-size:13px;padding:5px 5px;text-align: left;}
+.layerworkorder .tableblack tr .listshow li{padding:2px 0;}
+.layerworkorder .tableblack tr .listshow li .text-icon {vertical-align: top;margin-left:10px;}
+.layerworkorder .tableblack tr .listshow li a:hover i:before{color:#666!important;}
+.layerworkorder {width:794px;padding:8px 20px 10px;color:#000;font-size:14px!important;}
+.layerworkorder h2{text-align: center;font-size:22px;margin-bottom:15px;}
+.layerworkorder input,.layerworkorder textarea{font-size:14px;width:100%;padding:0 4px!important;color:#999;background:transparent;border:none/*border:1px #cee3f4 solid*/}
+.layerworkorder input:focus{border:none}
+.layerworkorder .remark{height:120px!important}
+.layerworkorder textarea{height:120px;resize: none;padding:4px 4px!important;margin:4px 0 0}
+.layerworkorder .unit{display:inline-block;margin-left:8px;}
+.layerworkorder .ivu-modal-footer{text-align: center;}
+.layerworkorder .ivu-modal-footer button{padding:5px 20px;}
+
+.layerworkorder.view td{text-align: center;}
+
+
+/*idc编辑页*/
+.layer-idc tr:first-child th{width:105px;}
+.layer-idc tr:nth-child(3) th:nth-child(3){width:105px;}
+.layer-idc tr:nth-child(3) th:nth-child(5){width:80px;}
+.layer-idc tr:last-child,.layer-idc tr:last-child input{}
+.layer-idc .number input{width:70px;}
+.layer-idc .colform label{float:left;font-weight:bold;vertical-align:middle;padding-top:2px;}
+.layer-idc .colform p{float:left;vertical-align:middle;margin-bottom:-10px;border-bottom:1px #333 solid;padding:0px 0 0px;margin:0 20px 0 8px;height:22px;width:150px;}
+.layer-idc .colform p,.layer-idc .colform p input{text-align: center;}
+.layer-idc .colform p input{margin-bottom: 3px;}
+.layer-idc input,.layer-idc textarea{}
+.layer-idc .ivu-modal-footer{text-align: center;}
+.layer-idc .ivu-modal-footer button{padding:5px 20px;}
+.layer-idc .select{width:100%;}
+.layer-idc .select span{font-size:14px!important;height:26px!important;line-height:26px!important}
+.layer-idc .select .ivu-select-selection{border:none}
+
+/*idc预览页*/
+.layer-idc.view tr:first-child td,.layer-idc.view tr:nth-child(2) td:nth-child(2){text-align: left;}
+
+/*线路施工单*/
+.layer-line .tableblack table{width:100%;table-layout: fixed;} 
+
+.layer-line .ivu-modal-footer{text-align: center;}
+.layer-line .ivu-modal-footer button{padding:5px 20px;}
+.layer-line .col1{width:30px;}
+.layer-line .col2{width:75px;}
+.layer-line .col3{width:auto;}
+.layer-line .col4{width:102px;}
+.layer-line .col5{width:140px;}
+.layer-line .col6{width:90px;}
+.layer-line .col7{width:140px;}
+
+
+
+/*线路施工单 预览页*/
+.layer-line.view tr:first-child td,.layer-line.view tr:nth-child(2) td:nth-child(2),.layer-line.view tr:nth-child(3) td:nth-child(2),
+.layer-line.view tr:nth-child(4) td:nth-child(2),.layer-line.view tr:nth-child(6) td:nth-child(3),
+.layer-line.view tr:nth-child(7) td:nth-child(2),.layer-line.view tr:nth-child(10) td:nth-child(3),
+.layer-line.view tr:nth-child(11) td:nth-child(2){text-align: left;}
